@@ -19,7 +19,7 @@ To complete this exercise:
 
 ### Get the code
 
-1. Fork this repository (accepting this as a GitHub Classroom assignment does this for you)
+1. Fork this repository
 1. Clone your fork of this repository to your local machine
 1. Navigate into the project directory
 
