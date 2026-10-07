@@ -87,7 +87,7 @@ app.get('/about', (req, res) => {
       'I am interested in machine learning, deep learning, and computer vision. I enjoy learning how artificial intelligence systems work and building projects that apply these ideas.',
       'Outside of academics, I enjoy exploring new places, meeting new people, and working on projects that allow me to combine technology with real-world problems.',
     ],
-    imageUrl: 'YOUR_IMAGE_URL_HERE',
+    imageUrl: 'front-end/public/aditi.jpg',
     imageAlt: 'A photo of Aditi Adhikari',
   })
 })
