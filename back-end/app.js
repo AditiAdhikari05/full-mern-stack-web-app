@@ -78,5 +78,19 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+// a route to provide the content for the About Us page
+app.get('/about', (req, res) => {
+  res.json({
+    title: 'About Us',
+    paragraphs: [
+      'Hi! My name is Aditi Adhikari. I am a Computer Science student at NYU Abu Dhabi, currently studying away at NYU New York.',
+      'I am interested in machine learning, deep learning, and computer vision. I enjoy learning how artificial intelligence systems work and building projects that apply these ideas.',
+      'Outside of academics, I enjoy exploring new places, meeting new people, and working on projects that allow me to combine technology with real-world problems.',
+    ],
+    imageUrl: 'YOUR_IMAGE_URL_HERE',
+    imageAlt: 'A photo of Aditi Adhikari',
+  })
+})
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
